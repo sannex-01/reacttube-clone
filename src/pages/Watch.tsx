@@ -3,6 +3,7 @@ import { useSearchParams, Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { AppSidebar } from "@/components/AppSidebar";
 import { Button } from "@/components/ui/button";
+import { CommentsSection } from "@/components/CommentsSection";
 import {
   ThumbsUp,
   ThumbsDown,
@@ -186,6 +187,9 @@ const Watch = () => {
                 amazing content!
               </p>
             </div>
+
+            {/* Comments section */}
+            <CommentsSection />
           </div>
 
           {/* Suggested videos sidebar */}
